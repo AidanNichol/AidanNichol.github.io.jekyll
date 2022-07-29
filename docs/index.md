@@ -1,6 +1,6 @@
 ---
 layout: default
-title: a crap home page
+title: a crappy home page
 ---
 new home page
 
