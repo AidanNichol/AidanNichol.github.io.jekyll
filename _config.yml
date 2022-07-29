@@ -5,6 +5,6 @@ defaults:
     values:
       layout: "ajn"
 
-theme: jekyll-theme-architect
+theme: jekyll-leap-day
 title: The Nichol Family
 description: Aidan & Margaret's Work
