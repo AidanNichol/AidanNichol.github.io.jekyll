@@ -1,0 +1,5 @@
+---
+permalink: /docs/aidan
+---
+
+A

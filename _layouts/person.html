@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+layout person {{ content }}
+<section>
+  {% assign works = site.works | where: "person", page.person %} {% for work in works %}
+  <p>
+    {{work.title}}<a href="{{work.url}}"
+      ><img src="/assets/img/{{work.image}}" alt=""
+    /></a>
+  </p>
+  {% endfor %}
+</section>
+{% assign image_files = site.static_files | where: "image", true %} {% for myimage in
+image_files %} {{ myimage.path }} {% endfor %}
